@@ -30,10 +30,10 @@ border: inset #000000;
 z-index: 2;
 }
 .nav-line {
-    position: relative; left:92%; right: 0;
+    position: relative; left:72%; right: 0;
 }
 .nav-line-2 {
-    position: relative; left:87%; right: 0;
+    position: relative; left:67%; right: 0;
 }
 .lightLine, .lightLine-2 {
     height: 2000px;
@@ -48,10 +48,10 @@ z-index: 2;
     box-shadow: 0 3px 15px #000000;
 }
 .lightLine {
-    position: relative; left:90%; right: 0; top: 20px;
+    position: relative; left:70%; right: 0; top: 20px;
 }
 .lightLine-2 {
-    position: relative; left:40%; right: 0;
+    position: relative; left:20%; right: 0;
 }
 .white-line {
     height: 1500px;
@@ -72,10 +72,10 @@ z-index: 2;
     z-index: 3;
 }
 .single-black-line {
-    position: relative; left: 80%;
+    position: relative; left: 60%;
 }
 .single-black-line-2 {
-    position: relative; left: 45%;
+    position: relative; left: 25%;
 
 }
 .color-line {
@@ -86,7 +86,8 @@ z-index: 2;
     box-shadow: 0 3px 15px #000000;
 }
 .logo-nav {
-    position: fixed; left: 50px; right: 0;
+    position:static; left: 0; right: 10px;
+    margin-left: 4%;
     height: 80px;
     width: 200px;
     overflow: hidden;
@@ -97,7 +98,7 @@ z-index: 2;
 
 
 header {
-    position: fixed; top: 130px;
+    position: relative; top: 50px;
     height: 55px;
     width: 100%;
     background-color: #2c2c2c;
