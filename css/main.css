@@ -112,4 +112,72 @@ header {
     width: 100%;
     background-color: #2c2c2c;
     box-shadow: 0 3px 15px #8400ff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.white-line-header, .white-line-header-2 {
+    height: 700px;
+    width: 30px;
+    background-color: #FFFFFF;
+    
+}
+.white-line-header {
+    rotate: -82deg;
+    position: relative; right: 20%;
+}
+.white-line-header-2 {
+    rotate: 82deg;
+    position: relative; left: 20%;
+}
+.black-line-header, .black-line-header-2, .black-line-header-3, .black-line-header-4 {
+    height: 700px;
+    width: 2px;
+    background-color: #000000;
+}
+.black-line-header{
+    rotate: -76deg;
+    position: relative; right: 7%;
+}
+.black-line-header-2 {
+    rotate: -85deg;
+    position: relative; right: 42%;
+}
+.black-line-header-3 {
+    rotate: 76deg;
+    position: relative; left: 5%;
+}
+.black-line-header-4 {
+    rotate: 85deg;
+    position: relative; left: 39%;
+}
+.menu-balk-opties {
+    gap: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.home, .contacten, .shop, .games {
+    font-size: 24px;
+    font-family: 'Orbitron', sans-serif;
+    border-bottom: solid 2px #FFFFFF;
+}
+
+
+
+.eerteBlok-main {
+    position: relative; top: 120px;
+    height: 700px;
+    width: 80%;
+    background-color: #2c2c2c;
+    border-radius: 30px;
+    border: #FFFFFF;
+    box-shadow: 0 3px 15px #8400ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
 }
