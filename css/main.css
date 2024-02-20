@@ -11,7 +11,7 @@ body {
     background-color: #000000;
 }
 
-nav {
+nav, .nav-contact, .nav-shop {
     height: 100px;
     width: 100%;
     background-color: #2c2c2c;
@@ -21,19 +21,14 @@ nav {
     flex-direction: row;
     align-items: center;
 }
-.nav-line, .nav-line-2 {
-height: 150px;
-width: 20px;
-background-color: #8400ff;
-rotate: 40deg;
-border: inset #000000;
-z-index: 3;
+.nav-contact {
+    box-shadow: 0 3px 15px #eaff00;
 }
-.nav-line {
-    position: relative; left:72%; right: 0;
+.nav-shop {
+    box-shadow: 0 3px 15px #00eeff;
 }
-.nav-line-2 {
-    position: relative; left:67%; right: 0;
+.nav-games {
+    box-shadow: 0 3px 15px #ee1414;
 }
 .lightLine, .lightLine-2 {
     height: 2000px;
@@ -81,14 +76,26 @@ z-index: 3;
     position: relative; left: 25%;
 
 }
-.color-line {
+.color-line, .color-line-contact, .color-line-shop, .color-line-games {
     height: 1200px;
     width: 10px;
     background-color: #8400ff;
     position: relative; right: 10%; bottom: 20%;
     box-shadow: 0 3px 15px #000000;
 }
-.logo-nav {
+.color-line {
+    background-color: #8400ff;
+}
+.color-line-contact {
+    background-color: #eaff00;
+}
+.color-line-shop {
+    background-color: #00eeff;
+}
+.color-line-games {
+    background-color: #ee1414;
+}
+.logo-nav, .logo-nav-contact, .logo-nav-shop, .logo-nav-games {
     position:static; left: 0; right: 10px;
     margin-left: 3%;
     height: 80px;
@@ -103,10 +110,22 @@ z-index: 3;
     align-items: center;
     justify-content: center;
 }
+.logo-nav {
+    border: solid 1px #8400ff;
+}
+.logo-nav-contact {
+    border: solid 1px #eaff00;
+}
+.logo-nav-shop {
+    border: solid 1px #00eeff;
+}
+.logo-nav-games {
+    border: solid 1px #ee1414;
+}
 
 
 
-header {
+header, .header-contacten, .header-shop, .header-games {
     position: relative; top: 40px;
     height: 55px;
     width: 100%;
@@ -118,9 +137,17 @@ header {
     align-items: center;
     justify-content: center;
 }
+.header-contacten {
+    box-shadow: 0 3px 15px #eaff00;
+}
+.header-shop {
+    box-shadow: 0 3px 15px #00eeff;
+}
+.header-games {
+    box-shadow: 0 3px 15px #ee1414;
+}
 a {
     text-decoration: none;
-
 }
 .white-line-header, .white-line-header-2 {
     height: 700px;
@@ -157,17 +184,36 @@ a {
     rotate: 85deg;
     position: relative; left: 39%;
 }
-.menu-balk-opties {
+.menu-balk-opties, .menu-balk-opties-contacten, .menu-balk-opties-shop, .menu-balk-opties-games {
     gap: 28px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
+.menu-balk-opties-contacten {
+    color: #eaff00;
+}
+.menu-balk-opties-shop {
+    color: #00eeff;
+}
+.menu-balk-opties-games {
+    color: #ee1414;
+}
 .home, .contacten, .shop, .games {
     font-size: 24px;
     font-family: 'Orbitron', sans-serif;
     border-bottom: solid 2px #FFFFFF;
+}
+.home-contact, .contacten-contacten, .shop-conacten, .games-contacten  {
+    color: #eaff00;
+}
+.home-shop, .contacten-shop, .shop-shop, .games-shop {
+    color: #00eeff;
+}
+
+.home-games, .contacten-games, .shop-games, .games-games {
+    color: #ee1414;
 }
 
 
@@ -396,4 +442,18 @@ position: relative; right: 40px;
     border-top: solid 2px #8400ff;
     color: #ffffff;
     position: relative; top:132px;
+}
+
+
+
+/* contacten kopje*/
+
+.eersteblok-contacten-main {
+    height: 800px;
+    width: 70%;
+    background: #8d8d8d;
+    /* box-shadow: 0px 3px 15px #ffffff; */
+    border: 5px solid #eaff00;
+    border: 5px solid #eaff00;
+
 }
